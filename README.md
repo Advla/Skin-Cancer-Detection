@@ -5,7 +5,7 @@ Massive Class imbalance (See Data Exploration notebook) was handled using a weig
 
 Image preprocessing techniques tested:
 - DullRazor algorithm (Hair removal through filtering techniques)
-- Otsu's thresholding
+- Otsu's thresholding + Convex Hull (certain images contained holes and led to bad segmentation results)
 
 Then we tested the influence of those techniques on the performance of the model.
 We found that classification was significantly better (across all metrics used) with DullRazor algorithm.
