@@ -1,6 +1,8 @@
 # Skin-Cancer-Detection
 An attempt to classify skin lesions from the HAM10000 Dataset, using CNNs (Transfer learning on DenseNet201).
 
+Massive Class imbalance (See Data Exploration notebook) was handled using a weighted loss function.
+
 Image preprocessing techniques tested:
 - DullRazor algorithm (Hair removal through filtering techniques)
 - Otsu's thresholding
