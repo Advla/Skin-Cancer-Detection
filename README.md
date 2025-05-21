@@ -1,2 +1,2 @@
 # Skin-Cancer-Detection
-An attempt to classify skin lesions from the HAM10000 Dataset, using CNNs.
+An attempt to classify skin lesions from the HAM10000 Dataset, using CNNs (Transfer learning on DenseNet201).
